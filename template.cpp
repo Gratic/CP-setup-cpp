@@ -12,7 +12,19 @@
 #define Fgt(i, k, n) for(i = k; i > n; ++i)
 #define Fgte(i, k, n) for(i = k; i >= n; ++i)
 
+typedef long long ll;
+typedef vector<int> vi;
+typedef pair<int,int> pi;
+
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
 using namespace std;
+
+// freopen("input.txt", "r", stdin);
+// freopen("output.txt", "w", stdout);
 
 template<typename... T>
 void read(T&... args) {
@@ -26,6 +38,8 @@ void write(T... args) {
 
 int main()
 {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
 
     return 0;
 }
