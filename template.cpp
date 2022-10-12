@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 #define d(x) cerr << #x << "=" << x << endl;
 
@@ -15,11 +16,14 @@
 typedef long long ll;
 typedef vector<int> vi;
 typedef pair<int,int> pi;
+typedef tuple<double,double,double> Edge;
+typedef vector<Edge> Edges;
 
 #define F first
 #define S second
 #define PB push_back
 #define MP make_pair
+#define MT make_tuple
 
 using namespace std;
 
